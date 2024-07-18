@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  react-app:
+    build: .
+    container_name: react-app-prod
+    command: npm run start
+    ports:
+      - '3000:3000'
+    volumes:
+      - .:/app
+    restart: always  
+

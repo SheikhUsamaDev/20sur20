@@ -1,0 +1,469 @@
+@media screen and (max-width: 1200px) {
+    .Enter_The_MATRIX {
+      
+
+        .Position-box {
+            // position: static !important;
+            width: 85% !important;
+        
+
+            .Button-box {
+                // width: 100% !important;
+
+                .Border-box {
+                    margin: 10px 5px !important;
+                }
+            }
+
+            .Form_box {
+                width: 100% !important;
+                margin-inline: 0px !important;
+            }
+        }
+
+        .chat_section {
+            height: 66vh !important;
+        }
+    }
+
+    // chat_sidebar
+// .chat_sidebar{
+//     .row{
+//       width: 100% !important;
+//       --bs-gutter-x: 0rem !important;
+//     }
+//   }
+
+}
+
+@media screen and (max-width: 992px) {
+// chat_sidebar
+.chat_sidebar{
+    overflow: auto !important;
+    .side_bar{
+      width: 100% !important;
+    }
+    .content{
+      width: 100% !important;
+  
+    }
+  }
+    .matrix_sidebar{
+        position: static !important;
+        width: 100% !important;
+        height: fit-content !important;
+        min-height: 0px !important;
+        position: relative;
+        padding: 10px !important;
+        .scrollbar-box {
+            .flex-box {
+              .btn {
+                a{
+                  max-width: 100% !important;
+                }
+              }
+             
+            }
+          }
+          .bottom_content {
+            width: 100% !important;
+            position: sticky !important;
+        }
+        .navbar-toggler {
+            position: absolute;
+            right: 10px;
+            top: -45px;
+            background-color: transparent;
+            border: 0.5px solid rgba(255, 255, 255, 0.2);
+          }
+          .navbar-toggler-icon {
+            background-image: url(../public/Images/toggle.png);
+            width: 25px;
+            height: 25px;
+          }
+    }
+  
+
+    .Enter_The_MATRIX_2 {
+        .Position-box {
+            padding: 20px !important;
+
+            .Form_box {
+                width: 100% !important;
+            }
+        }
+
+
+    }
+
+    .Enter_The_MATRIX {
+        padding: 0px 10px !important;
+        .img-scroll {
+            
+            .row {
+              img {
+                min-height: 2px !important;
+              }
+            }
+          }
+        .chat_section {
+            height: 62vh !important;
+        }
+
+        .Position-box-2 {
+            position: absolute !important;
+            width: 95% !important;
+        }
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .matrix_sidebar{
+        .BUTTONS {
+            .Btns {
+                right: 0px;
+            }
+          }
+    }
+
+
+    .Enter_The_MATRIX {
+        .flex-box-3 {
+            // justify-content: center !important;
+            // align-items: center !important;
+            flex-direction: column;
+
+            .Box {
+                h1 {
+                    // letter-spacing: 3px;
+                    // font-size: 22px;
+                    padding-bottom: 10px;
+                }
+            }
+
+            .flex-box-5 {
+                padding: 10px 2px 10px 2px;
+
+                .btn-5 {
+                    padding: 8px;
+                }
+            }
+        }
+
+        .Position-box {
+            position: none !important;
+            width: 90% !important;
+        }
+
+        .flex-box-2 {
+            .text {
+                font-size: 12px;
+            }
+        }
+
+        .chat_section {
+            height: 60vh !important;
+        }
+    }
+
+
+
+}
+
+@media screen and (max-width: 576px) {
+    .Enter_The_MATRIX {
+        height: 100% !important;
+        .flex-box-5 {
+            padding: 10px 7px 15px 7px !important;
+            flex-wrap: wrap !important;
+            justify-content: center !important;
+
+            .btn-5 {
+                font-size: 10px !important;
+
+            }
+        }
+
+        .Position-box {
+            margin-top: 10px !important;
+            position: static !important;
+            width: 100% !important;
+            .Button-box{
+                width: 100% !important;
+            }
+            .Form_box {
+                padding: 10px 0px;
+                margin-inline: 0 !important;
+
+                .BUTTONS {
+
+                    .btn-7 {
+                        margin: 10px 0px !important;
+                        padding: 10px 0% 10px 35% !important;
+                        border-radius: 3px !important;
+                        height: fit-content !important;
+                        width: 100% !important;
+                        text-shadow: 0px 0px 9.924126625061035px #1FDE00 !important;
+                        font-size: 12px !important;
+
+                        .span {
+                            text-align: center !important;
+                            align-self: center !important;
+                            margin: auto !important;
+                        }
+                    }
+                }
+            }
+
+
+        }
+
+        .Position-box-2 {
+            position: static !important;
+            .Button-box {
+                padding: 0px 0px 0px 5px !important;
+
+                .Border-box {
+                    margin: 6px 5px 6px 0px !important;
+                    padding: 6px !important;
+
+                    .sm-text {
+                        font-size: 10px !important;
+                    }
+
+                    .lg-text {
+                        font-size: 12px !important;
+                    }
+
+                    .form-select-sm {
+                        padding: 0px 5px !important;
+                    }
+
+                    .flex-box-9 {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        width: 100%;
+
+                        .text-boxes {
+                            margin-left: 5px;
+                        }
+
+                        img {
+                            width: 30px;
+                            height: 30px;
+                            border-radius: 3px;
+                        }
+
+                        Button {
+                            font-size: 12px !important;
+                            padding: 6px !important;
+                        }
+                    }
+                }
+            }
+
+            .Form_box {
+
+                .BUTTONS {
+
+                    .btn-7 {
+                        margin: 10px 0px !important;
+                        padding: 10px 0% 10px 35% !important;
+                        border-radius: 3px !important;
+                        height: fit-content !important;
+                        width: 100% !important;
+                        text-shadow: 0px 0px 9.924126625061035px #1FDE00 !important;
+                        font-size: 12px !important;
+
+                        .span {
+                            text-align: center !important;
+                            align-self: center !important;
+                            margin: auto !important;
+                        }
+                    }
+                }
+            }
+
+
+        }
+    }
+
+    .Enter_The_MATRIX_2 {
+        .Position-box {
+            .Form_box {
+
+                .BUTTONS {
+
+                    .btn-7 {
+                        margin: 10px 0px !important;
+                        padding: 10px 0% 10px 35% !important;
+                        border-radius: 3px !important;
+                        height: fit-content !important;
+                        width: 100% !important;
+                        text-shadow: 0px 0px 9.924126625061035px #1FDE00 !important;
+                        font-size: 12px !important;
+
+                        .span {
+                            text-align: center !important;
+                            align-self: center !important;
+                            margin: auto !important;
+                        }
+                    }
+                }
+            }
+
+            .Button-box {
+                justify-content: start !important;
+
+                .Border-box {
+                    margin: 5px !important;
+                    padding: 5px !important;
+                    align-items: start !important;
+
+                    .sm-text {
+                        font-size: 10px !important;
+                    }
+
+                    .lg-text {
+                        font-size: 14px !important;
+                    }
+
+                    .flex-box {
+                        Button {
+                            padding: 4px;
+                            margin-left: 4px;
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+
+    // Annuel
+
+    .Annuel {
+        .header-card {
+            .btn {
+              width: fit-content !important;
+            }
+      
+          }
+
+        .card {
+            .header-card {
+                h5 {
+                    font-weight: 400 !important;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width:426px) {
+    .modal-content {
+
+        .modal-title {
+            text-align: center;
+            letter-spacing: 2px;
+            font-size: 22px;
+            align-self: center;
+        }
+
+        .modal-body {
+            .box {
+                .lg-text {
+                    font-size: 14px;
+                }
+            }
+
+        }
+
+
+
+        .css-14pt78w-MuiSlider-rail {
+            margin: 5px 0px;
+            height: 15px !important;
+        }
+
+        .css-1gv0vcd-MuiSlider-track {
+            margin: 5px 0px;
+            height: 15px !important;
+        }
+
+        .css-eg0mwd-MuiSlider-thumb {
+            margin: 5px 0px;
+            height: 23px !important;
+            width: 23px !important;
+        }
+
+        .modal-footer {
+            border: none;
+
+            .btn-1 {
+                box-shadow: none;
+                border-radius: 3px;
+                font-size: 12px;
+                letter-spacing: 1px;
+                padding: 12px;
+            }
+
+            .btn-2 {
+                font-size: 12px;
+                letter-spacing: 1px;
+                padding: 12px;
+            }
+        }
+    }
+
+    .Enter_The_MATRIX {
+        .Position-box-2 {
+            // position: static !important;
+            padding-top: 20px !important;
+        }
+
+        .row {
+            img {
+                width: 100%;
+                border-radius: 5px;
+                margin-bottom: 10px !important;
+                margin: auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+
+        .flex-box-3 {
+            .Box {
+                // margin-top: 20px;
+
+                h1 {
+                    letter-spacing: 3px !important;
+                    font-size: 24px !important;
+                }
+            }
+
+
+        }
+
+        .Button-box {
+            width: 100% !important;
+            padding: 5px;
+
+            .Border-box {
+                width: 100%;
+                padding: 5px;
+                .flex-box-9 :nth-last-child(2){
+                    // width: 100% !important;
+                  }
+            }
+        }
+
+    }
+
+}

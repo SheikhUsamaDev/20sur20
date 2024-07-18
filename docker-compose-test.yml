@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  next-app:
+    build: .
+    container_name: next-app-test
+    command: npm run test
+    ports:
+      - '3000:3000'
+    volumes:
+      - .:/app
+    restart: always
+
